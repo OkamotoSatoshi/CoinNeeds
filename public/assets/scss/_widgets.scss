@@ -1,0 +1,93 @@
+/* ==============
+  Widgets
+===================*/
+.widget-chart li {
+  width: 31.5%;
+  display: inline-block;
+  padding: 0;
+
+  i {
+    font-size: 22px;
+  }
+}
+
+.mini-stat {
+  box-shadow: $shadow;
+  padding: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.mini-stat-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.mini-stat-info {
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.mini-stat-info span {
+  display: block;
+  font-size: 24px;
+}
+
+
+.round {
+  line-height: 60px;
+  color: $primary;
+  width: 60px;
+  height: 60px;
+  font-size: 26px;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid $gray-100;
+  text-align: center;
+  border-radius: 10%;
+  background: rgba($primary,.02);
+}
+
+
+
+.jvectormap-zoomin,
+.jvectormap-zoomout{
+  display: none;
+}
+.bg-map{
+  background-color: #f3f8fb;
+  box-shadow: none;
+}
+
+
+#v-cal {
+  .vcal-week {
+    background-color: lighten($gray-100, 1%);
+    span{
+      font-size: 13px !important;
+      padding: 14px 8px;
+      font-weight: 500;
+    }
+  }
+  .vcal-date{
+    padding: 10px;
+  }
+  .vcal-date--today {
+    background-color: $info;
+  }
+  .vcal-header {
+    svg {
+      fill: $info;
+    }
+  }
+}

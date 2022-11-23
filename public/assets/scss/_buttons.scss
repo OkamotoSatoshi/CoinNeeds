@@ -1,0 +1,224 @@
+/* ==============
+  Buttons
+===================*/
+
+.btn {
+  border-radius: 3px;
+  font-size: $base-font;
+}
+
+.btn-round{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+}
+
+
+.button-list, 
+.button-items {
+  margin-bottom: -8px;
+  .btn {
+    margin-bottom: 8px;
+    margin-right: 5px;
+  }
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary,
+.btn-danger, .btn-dark{
+  color: $white;
+}
+
+.btn-secondary {
+  border-color: rgba($dark,0.2);
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active,
+.btn-secondary.focus, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover,
+.open > .dropdown-toggle.btn-secondary,.btn-secondary.active, .btn-secondary:active,
+.show>.btn-secondary.dropdown-toggle  {
+  border: 1px solid rgba($dark, 0.2);
+}
+
+.btn-primary{
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
+.btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,
+.open > .dropdown-toggle.btn-primary,.btn-outline-primary.active, .btn-outline-primary:active,
+.show>.btn-outline-primary.dropdown-toggle,.btn-outline-primary:hover,.btn-primary.active,
+.btn-primary:active, .show>.btn-primary.dropdown-toggle  {
+  background-color: darken($primary, 5%);
+  border: 1px solid darken($primary, 5%);
+  color: $white;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-primary.dropdown-toggle:focus,
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary,.5);
+}
+
+.btn-success {
+  background-color: $success;
+  border: 1px solid $success;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active,
+.btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover,
+.open > .dropdown-toggle.btn-success,.btn-outline-success.active, .btn-outline-success:active,
+.show>.btn-outline-success.dropdown-toggle,.btn-outline-success:hover,.btn-success.active,
+.btn-success:active, .show>.btn-success.dropdown-toggle {
+  background-color: darken($success, 5%);
+  border: 1px solid darken($success, 5%);
+}
+
+.btn-info {
+  background-color: $info;
+  border: 1px solid $info;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.focus,
+.btn-info:active, .btn-info:focus, .btn-info:hover, .open > .dropdown-toggle.btn-info,
+.btn-outline-info.active, .btn-outline-info:active,
+.show>.btn-outline-info.dropdown-toggle,.btn-outline-info:hover,.btn-info.active, .btn-info:active,
+.show>.btn-info.dropdown-toggle{
+  background-color: darken($info, 5%);
+  border: 1px solid darken($info, 5%);
+}
+
+.btn-warning {
+  background-color: $warning;
+  border: 1px solid $warning;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active,
+.btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover,
+.open > .dropdown-toggle.btn-warning,.btn-outline-warning.active, .btn-outline-warning:active,
+.show>.btn-outline-warning.dropdown-toggle,.btn-outline-warning:hover,.btn-warning.active,
+.btn-warning:active, .show>.btn-warning.dropdown-toggle {
+  background-color: darken($warning, 5%);
+  border: 1px solid darken($warning, 5%);
+}
+
+.btn-danger {
+  background-color: $danger;
+  border: 1px solid $danger;
+}
+.btn-danger:active, .btn-danger:focus, .btn-danger:hover, .btn-danger.active,
+.btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover,
+.open > .dropdown-toggle.btn-danger,.btn-outline-danger.active, .btn-outline-danger:active,
+.show>.btn-outline-danger.dropdown-toggle,.btn-outline-danger:hover,.btn-danger.active,
+.btn-danger:active, .show>.btn-danger.dropdown-toggle {
+  background-color: darken($danger, 5%);
+  border: 1px solid darken($danger, 5%);
+}
+
+.btn-dark {
+  background-color: $dark;
+  border: 1px solid $dark;
+  color: $white;
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active, .btn-dark.focus,
+.btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open > .dropdown-toggle.btn-dark,
+.btn-outline-dark.active, .btn-outline-dark:active,
+.show>.btn-outline-dark.dropdown-toggle,.btn-outline-dark:hover{
+  background-color: darken($dark, 5%);
+  border: 1px solid darken($dark, 5%);
+  color: $white;
+}
+.btn-dark.focus, .btn-dark:focus,.btn-outline-dark.focus, .btn-outline-dark:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba($dark,.3);
+  box-shadow: 0 0 0 2px rgba($dark,.3);
+}
+
+.btn-link {
+  color: $dark;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+/* button Outline */
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+}
+.btn-outline-success {
+  color: $success;
+  border-color: $success;
+}
+.btn-outline-info {
+  color: $info;
+  border-color: $info;
+}
+.btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+}
+.btn-outline-danger {
+  color: $danger;
+  border-color: $danger;
+}
+.btn-outline-dark {
+  color: $dark;
+  background-image: none;
+  background-color: transparent;
+  border-color: $dark;
+}
+
+/* Social Buttons */
+.btn-facebook {
+  color: $white !important;
+  background-color: #3b5998;
+}
+.btn-twitter {
+  color: $white !important;
+  background-color: #00aced;
+}
+.btn-linkedin {
+  color: $white !important;
+  background-color: #007bb6;
+}
+.btn-dribbble {
+  color: $white !important;
+  background-color: #ea4c89;
+}
+.btn-googleplus {
+  color: $white !important;
+  background-color: #dd4b39;
+}
+.btn-instagram {
+  color: $white !important;
+  background-color: #517fa4;
+}
+.btn-pinterest {
+  color: $white !important;
+  background-color: #cb2027;
+}
+.btn-dropbox {
+  color: $white !important;
+  background-color: #007ee5;
+}
+.btn-flickr {
+  color: $white !important;
+  background-color: #ff0084;
+}
+.btn-tumblr {
+  color: $white !important;
+  background-color: #32506d;
+}
+.btn-skype {
+  color: $white !important;
+  background-color: #00aff0;
+}
+.btn-youtube {
+  color: $white !important;
+  background-color: #bb0000;
+}
+.btn-github {
+  color: $white !important;
+  background-color: #171515;
+}

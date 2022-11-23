@@ -1,0 +1,89 @@
+/* ==============
+  Progressbar
+===================*/
+.h-progress .progress{
+    border-radius:50px;
+}
+.h-progress .progress .progress-bar:last-child {
+    border-radius: 0 60px 60px 0;
+}
+.v-progress .progress{
+    border-radius:50px;
+}
+.v-progress .progress .progress-bar:last-child{
+    border-radius: 60px 60px 0 0; 
+}
+.v-progress .v-striped .progress-bar:last-child{
+    border-radius:  0 0 60px 60px;
+}
+.progress-bar {
+    background-color: $primary;
+}
+
+.bg-progress{
+    background-color:lighten($bg-topbar,30%); 
+  }
+/* Progressbar Vertical */
+
+.progress-vertical {
+    min-height: 250px;
+    height: 250px;
+    width: 10px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 20px;
+    .progress-bar {
+        width: 100%;
+    }
+}
+
+
+.progress-vertical-bottom {
+    min-height: 250px;
+    height: 250px;
+    position: relative;
+    width: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 20px;
+    .progress-bar {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+.progress-vertical.progress-sm,
+.progress-vertical-bottom.progress-sm {
+    width: 5px !important;
+}
+
+.progress-vertical.progress-sm .progress-bar,
+.progress-vertical-bottom.progress-sm .progress-bar {
+    font-size: 8px;
+    line-height: 5px;
+}
+
+.progress-vertical.progress-md,
+.progress-vertical-bottom.progress-md {
+    width: 15px !important;
+}
+
+.progress-vertical.progress-md .progress-bar,
+.progress-vertical-bottom.progress-md .progress-bar {
+    font-size: 10.8px;
+    line-height: 14.4px;
+}
+
+.progress-vertical.progress-lg,
+.progress-vertical-bottom.progress-lg {
+    width: 20px !important;
+}
+
+.progress-vertical.progress-lg .progress-bar,
+.progress-vertical-bottom.progress-lg .progress-bar {
+    font-size: 12px;
+    line-height: 20px;
+}

@@ -1,0 +1,131 @@
+/* ==============
+  Form-Advanced
+===================*/
+/* Datepicker */
+.datepicker {
+  border: 1px solid $gray-400;
+  padding: 8px;
+}
+
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,.datepicker table tr td.today, .datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover,.datepicker table tr td.selected,
+.datepicker table tr td.selected.disabled, .datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected:hover  {
+  background-color: $primary !important;
+  background-image: none;
+  box-shadow: none;
+  color: $white;
+}
+
+/* Bootstrap-touchSpin */
+.bootstrap-touchspin .input-group-btn-vertical .btn {
+  padding: 9px 12px;
+}
+.bootstrap-touchspin .input-group-btn-vertical i {
+  top: 4px;
+  left: 8px;
+}
+.input-group-addon {
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $gray-800;
+  text-align: center;
+  white-space: nowrap;
+  background-color: $gray-200;
+  border: 1px solid $gray-400;
+}
+
+/* Prism */
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: $light;
+}
+
+/* Rating */
+.badge:empty {
+  padding: 0;
+}
+
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid $gray-400;
+  height: 38px;
+}
+
+.select2-container--default .select2-selection--single:focus {
+  outline: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: $gray-800;
+  line-height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 38px;
+  right: 8px;
+}
+
+.select2-container .select2-selection--multiple {
+  min-height: 38px;
+  border: 1px solid $gray-400;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+  margin-top: 8px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-top: 7px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid 1px $gray-400;
+  outline: 0;
+}
+
+/*---datetimepicker---*/
+.dtp-btn-cancel {
+  margin-right: 5px;
+}
+
+.addon-color-picker .btn {
+  padding: 8px;
+  line-height: 0;
+  border-color: $gray-400;
+}
+/*--colorpicker--*/
+.asColorPicker-clear {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 45px;
+  text-decoration: none;
+}
+
+.asColorPicker-trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 38px;
+  width: 37px;
+  border: 0;
+}
+
+.asColorPicker-dropdown {
+  max-width: 260px;
+}
+
+.asColorPicker-wrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-right: 35px;
+}
+.bootstrap-touchspin-up,
+.bootstrap-touchspin-down{
+  padding: 8px 14px;
+}
