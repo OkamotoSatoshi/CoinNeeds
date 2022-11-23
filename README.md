@@ -6,7 +6,7 @@
 
 ### 下载目录
 提供一下两种方式下载
-1. 直接通过压缩包     [[压缩包]](https://github.com/OkamotoSatoshi/web3-study/archive/refs/heads/main.zip "[压缩包]")
+1. 直接通过压缩包     [[压缩包]](https://github.com/OkamotoSatoshi/web3-study/archive/refs/heads/master.zip "[压缩包]")
 2. git clone 方式
 `
  git clone git@github.com:OkamotoSatoshi/web3-study.git
