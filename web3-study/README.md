@@ -13,6 +13,7 @@
 `
 
 ### 在根目录下安装
+(这里的根目录是 “CoinNeeds/web3-study/website-template"), 你也可以将这个目录重新命名，拷贝到其他地方）
 安装命令  npm install 
 
 ### 运行开发环境
