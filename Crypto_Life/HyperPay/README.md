@@ -33,19 +33,19 @@ HyperPay钱包成立于2017年，是集托管理财钱包、去中心化自管�
 
 如果没有邀请码，手动输入上面的邀请码。
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b01.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b01.png)
 
   
 **第二步：下载APP**
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b02.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b02.png)
 
   
 **第三步：选择钱包类型（托管钱包）**
 
 信用卡是属于托管钱包类型。不在详细说了这个步骤。
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b03.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b03.png)
 
   
 **第四步：登陆&设置 交易密码**
@@ -59,13 +59,13 @@ HyperPay钱包成立于2017年，是集托管理财钱包、去中心化自管�
 
 **我们关注几个核心“开卡费”，“充值手续费”，“支持平台”，**支持平台中会介绍是否能够用于微信/支付宝等平台。对于“支持”我的理解这个是列举，其他的平台是否支持，要去支持。大家根据自己需求来判断和选择类型。有些卡的类型是不需KCY，有些需要，这里我不做详细介绍了按照步骤操作申请即可。KYC主要就是人脸识别，如果不需要KYC（标注简单）的，只需要随便写名字，地址即可。有群友试过随便填写没问题。
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b04.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b04.png)
 
 **第六步：“充值”**
 
 点击右下角“资产”，点击“充值”，这里支持几十种公链，还有没数过多少种币，但应该是超牛逼的支持了。但这里，**我推荐“USDT”和“ETH”，这个我下文会讲到。**
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b05.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b05.png)
 
   
 **第七步：“提额”**
@@ -74,7 +74,7 @@ HyperPay钱包成立于2017年，是集托管理财钱包、去中心化自管�
 
 这里支持质押的只有两种数字货币“USDT”和“ETH”，但别慌，我们之前介绍过，HyperPay还有交易所业务，你可以充值各种公链，各种币进去，然后换成USDT或者“ETH”即可。如果你手上有这种币，直接最好。避免不必要的手续费产生。
 
-![](https://fil.coinneeds.xyzhttp://coinneeds.xyz/uploads/96e4457cff6f4c7c730363b06.png)
+![](https://fil.coinneeds.xyz/uploads/96e4457cff6f4c7c730363b06.png)
 
 **第八步：“还款”**
 
